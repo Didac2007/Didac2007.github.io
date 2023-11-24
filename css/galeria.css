@@ -28,10 +28,10 @@ body {
 @media only screen and (max-width: 600px) {
 
     div.gallery {
-        border: 0.1vw solid #ccc;
+        border: 0.3vw solid white;
         float: center;
         width: 80%;
-        background-color: darkred;
+        background-color: darkcyan;
         font-family: theboysss;
         text-align: center;
     }
@@ -40,17 +40,4 @@ body {
         border: 0.1vw solid greenyellow;
     }
 
-    div.gallery img {
-        width: 80%;
-        height: auto;
-    }
-
-    div.desc {
-        padding: 0.5vw;
-        text-align: center;
-    }
-
-    body {
-        background-color: black;
-    }
 }

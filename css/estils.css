@@ -285,11 +285,6 @@ img {
         background-color: aqua;
     }
 
-    td {
-        font-family: theboysss;
-        text-align: center;
-    }
-
     table {
         background-color: darkblue;
         width: 50%;
@@ -306,34 +301,13 @@ img {
         float: auto;
     }
 
-    .columna {
-        width: 33%;
-        padding: 1.5vw;
-        margin: 0%;
-        float: left;
-    }
-
-    .fila {
-        display: flex;
-        width: 100%;
-    }
-
     .temporada1 {
         text-align: center;
         font-family: theboysss;
         font-size: 1em;
         text-shadow: 0.2vw 0.2vw black;
         font-size-adjust: 250%;
-        color: darkred;
+        color: darkviolet;
     }
 
-    .imatge {
-        width: 120%;
-    }
-
-    .boysimatge {
-        width: 15vw;
-        float: center;
-        margin: 0%;
-    }
 }
