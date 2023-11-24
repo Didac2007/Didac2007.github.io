@@ -224,7 +224,6 @@ img {
         color: midnightblue;
     }
 
-    /* Style the header */
     header {
         background-color: aqua;
         padding: 3vw;
@@ -239,38 +238,6 @@ img {
         padding: 0.8vw 1.6vb;
         text-decoration: none;
         font-size: x-small;
-    }
-
-    /*nav li:last-child {
-        border-bottom: none;
-    }*/
-
-    nav li.active {
-        background-color: darkred;
-        color: white;
-        font-family: theboysss;
-    }
-
-    article {
-        /*float: left;*/
-        padding: 2vw;
-        background-color: black;
-        color: white;
-        /*display: table;*/
-        /*width: 30%;*/
-        /*height: 300px; only for demonstration, should be removed */
-    }
-
-    /* Style the footer */
-    footer {
-        background-color: #777;
-        padding: 1vw;
-        text-align: center;
-        color: white;
-        font-family: theboysss;
-        text-shadow: 0.1vw 0.1vw black;
-        font-size: 150%;
-        color: darkred;
     }
 
     table,
