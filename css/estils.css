@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+
+@font-face {
+    font-family: theboysss;
+    src: url(theboys.ttf);
+}
+
+h2 {
+    text-align: center;
+    font-family: theboysss;
+    font-size: 2.5em;
+    text-shadow: 0.2vw 0.2vw black;
+    font-size-adjust: 250%;
+    color: darkred;
+}
+
+h1 {
+    text-align: center;
+    font-family: theboysss;
+    font-size: 250%;
+}
+
+/* Style the header */
+header {
+    background-color: yellow;
+    padding: 3vw;
+    text-align: center;
+    font-size: 3.5vw;
+    color: white;
+}
+
+/*section {
+    display: flex;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    /*float: left;*/
+    /*width: 30%;*/
+    /*height: 300px; only for demonstration, should be removed */
+    background: #559;
+    padding: 1vw;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /*width: auto;*/
+    justify-content: center;
+    background-color: #f1f1f1;
+    border: 0.1vw solid #555;
+}
+
+nav ul li {
+    text-align: center;
+    border: 0.3vw solid black;
+    width: 20%;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    padding: 0.8vw 1.6vb;
+    text-decoration: none;
+    font-size: x-small;
+}
+
+nav li {
+    text-align: center;
+    border-bottom: 0.1vw solid black;
+}
+
+/*nav li:last-child {
+    border-bottom: none;
+}*/
+
+nav li.active {
+    background-color: darkred;
+    color: white;
+    font-family: theboysss;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+article {
+    /*float: left;*/
+    padding: 2vw;
+    background-color: black;
+    color: white;
+    /*display: table;*/
+    /*width: 30%;*/
+    /*height: 300px; only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 1vw;
+    text-align: center;
+    color: white;
+    font-family: theboysss;
+    text-shadow: 0.1vw 0.1vw black;
+    font-size: 150%;
+    color: darkred;
+}
+
+table,
+td,
+th {
+    border: 0.2vw solid black;
+    background-color: darkgoldenrod;
+}
+
+th {
+    font-size: x-large;
+    background-color: aqua;
+}
+
+td {
+    font-family: theboysss;
+    text-align: center;
+}
+
+table {
+    background-color: darkred;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    background-color: yellow;
+}
+
+img {
+    width: 5.5vw;
+    float: auto;
+}
+
+.columna {
+    width: 33%;
+    padding: 1.5vw;
+    margin: 0%;
+    float: left;
+}
+
+.fila {
+    display: flex;
+    width: 100%;
+}
+
+.temporada1 {
+    text-align: center;
+    font-family: theboysss;
+    font-size: 1em;
+    text-shadow: 0.2vw 0.2vw black;
+    font-size-adjust: 250%;
+    color: darkred;
+}
+
+.imatge {
+    width: 100%;
+}
+
+.boysimatge {
+    width: 15vw;
+    float: center;
+    margin: 0%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on
+    small screens */
+@media only screen and (max-width: 600px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aqua;
+    }
+
+    @font-face {
+        font-family: theboysss;
+        src: url(theboys.ttf);
+    }
+
+    h2 {
+        text-align: center;
+        font-family: theboysss;
+        font-size: 2.5em;
+        text-shadow: 0.3vw 0.3vw white;
+        font-size-adjust: 250%;
+        color: midnightblue;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: theboysss;
+        font-size: 250%;
+        color: midnightblue;
+    }
+
+    /* Style the header */
+    header {
+        background-color: aqua;
+        padding: 3vw;
+        text-align: center;
+        font-size: 3.5vw;
+        color: white;
+    }
+
+    nav li a {
+        display: block;
+        color: #000;
+        padding: 0.8vw 1.6vb;
+        text-decoration: none;
+        font-size: x-small;
+    }
+
+    /*nav li:last-child {
+        border-bottom: none;
+    }*/
+
+    nav li.active {
+        background-color: darkred;
+        color: white;
+        font-family: theboysss;
+    }
+
+    article {
+        /*float: left;*/
+        padding: 2vw;
+        background-color: black;
+        color: white;
+        /*display: table;*/
+        /*width: 30%;*/
+        /*height: 300px; only for demonstration, should be removed */
+    }
+
+    /* Style the footer */
+    footer {
+        background-color: #777;
+        padding: 1vw;
+        text-align: center;
+        color: white;
+        font-family: theboysss;
+        text-shadow: 0.1vw 0.1vw black;
+        font-size: 150%;
+        color: darkred;
+    }
+
+    table,
+    td,
+    th {
+        border: 0.2vw solid black;
+        background-color: darkslateblue;
+    }
+
+    th {
+        font-size: x-large;
+        background-color: aqua;
+    }
+
+    td {
+        font-family: theboysss;
+        text-align: center;
+    }
+
+    table {
+        background-color: darkblue;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    body {
+        background-color: aqua;
+    }
+
+    img {
+        width: 10vw;
+        float: auto;
+    }
+
+    .columna {
+        width: 33%;
+        padding: 1.5vw;
+        margin: 0%;
+        float: left;
+    }
+
+    .fila {
+        display: flex;
+        width: 100%;
+    }
+
+    .temporada1 {
+        text-align: center;
+        font-family: theboysss;
+        font-size: 1em;
+        text-shadow: 0.2vw 0.2vw black;
+        font-size-adjust: 250%;
+        color: darkred;
+    }
+
+    .imatge {
+        width: 120%;
+    }
+
+    .boysimatge {
+        width: 15vw;
+        float: center;
+        margin: 0%;
+    }
+}

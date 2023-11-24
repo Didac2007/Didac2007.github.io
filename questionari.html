@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estils.css">
+</head>
+
+<body>
+    <header>
+        <h2>THE BOYS</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICI</a></li>
+                <li><a href="actors.html">ACTORS</a></li>
+                <li><a href="galeriapersonatjes.html">GALERIA DELS PERSONATJES</a></li>
+                <li><a href="temporades.html">TEMPORADES</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li class="active"><a href="questionari.html">QUESTIONARI</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>QUESTIONARI</h1>
+            <div id="formu">
+            <form action="gracies.html" method="get" name="formulari" id="formulari">
+                <fieldset>
+                    <legend>QÜESTIONARI SOBRE QUÈ OPINES DE LA SÈRIE</legend>
+                    <label for="t'ha_agradat_la_informació_d'aquesta_pàgina_web">¿T'ha agradat la informació
+                        d'aquesta pàgina web?:</label><br>
+                    <input type="radio" name="resposta1" id="si" value="si">Sí<br>
+                    <input type="radio" name="resposta2" id="no" value="no">No<br>
+                    <input type="radio" name="resposta3" id="ni_molt_ni_poc" value="ni_molt_ni_poc">Ni molt ni
+                    poc<br>
+                    <br>
+                    <label for="quin_es_el_teu_actor_preferit">¿Quin és el teu actor favorit?:</label><br>
+                    <input type="checkbox" name="resposta4" id="karl_urban" value="karl_urban">Karl Urban<br>
+                    <input type="checkbox" name="resposta5" id="jack_quaid" value="jack_quaid">Jack Quaid<br>
+                    <input type="checkbox" name="resposta6" id="anthony_starr" value="anthony_starr">Anthony
+                    Starr<br>
+                    <br>
+                    <label for="opinio">LA TEVA OPINIÓ:</label>
+                    <input type="text" id="opinio" name="la_teva_opinio" placeholder="Escriu la teva opinió"><br>
+                    <br>
+                    <button type="submit" id="submit">Enviar formulari</button>
+                    <button type="reset" id="reset">Esborrar formulari</button>
+                </fieldset>
+            </form></div>
+        </article>
+    </section>
+
+    <footer>
+        <p>By: Didac Ramos</p>
+    </footer>
+
+
+</body>
+
+</html>
